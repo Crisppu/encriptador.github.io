@@ -1,0 +1,36 @@
+body {
+    background: #E5E5E5;
+}
+
+
+header {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.contenedor{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    padding: 50px;
+
+}
+
+
+.botones{
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 400px;
+}
+
+.respuesta-codificador{
+    position: absolute;
+width: 500px;
+height: 804px;
+left: 800px;
+top: 0;
+padding: 50px;
+}
