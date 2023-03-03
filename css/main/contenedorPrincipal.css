@@ -98,3 +98,50 @@
     height: 40px;
     align-self: center;
 }
+
+@media screen and (max-width:858px) {
+    .contenedor__principal {
+        flex-direction: column;
+    }
+
+   .contenedor__encriptar{
+    justify-content: end;
+    height: 400px;
+    }
+
+    .textarea__encriptar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .span__mensajeAdvertencia {
+        text-align: center;
+    }
+
+    .lista__botones {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+    }
+    .boton__encriptar,.boton__desencriptar{
+    width: 310px;
+    height: 50px;
+    margin-bottom: 1rem;
+    }
+
+    .contenedor__resultado {
+        justify-content: initial;
+        background-color: inherit;
+        height: 300px;
+
+    }
+
+    .textarea__resultado{
+    height: 150px;
+    }
+    .boton__copiar{
+    margin-top: 1rem;
+    }
+
+}
